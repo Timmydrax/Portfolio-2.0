@@ -1,4 +1,4 @@
-import { Navbar } from "./components";
+import { Hero, Navbar } from "./components";
 
 const App = () => {
   return (
@@ -11,9 +11,10 @@ const App = () => {
           </div>
         </div>
 
-        <div className="container mx-auto px-8">
+        <section className="container mx-auto px-8">
           <Navbar />
-        </div>
+          <Hero />
+        </section>
       </div>
     </>
   );
