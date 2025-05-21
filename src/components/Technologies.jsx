@@ -1,23 +1,12 @@
-import { DiGithub, DiRedis } from "react-icons/di";
 import {
   RiCss3Fill,
-  RiGitBranchFill,
   RiGithubFill,
-  RiGithubLine,
   RiHtml5Fill,
   RiNpmjsFill,
   RiReactjsLine,
   RiTailwindCssFill,
-  RiVercelFill,
-  RiVuejsFill,
 } from "react-icons/ri";
-import {
-  SiGithub,
-  SiJavascript,
-  SiMongodb,
-  SiNetlify,
-  SiTypescript,
-} from "react-icons/si";
+import { SiJavascript, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 const Technologies = () => {
