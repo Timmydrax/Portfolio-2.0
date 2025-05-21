@@ -1,4 +1,12 @@
-import { Hero, Navbar, Technologies, Projects, Experience } from "./components";
+import {
+  Hero,
+  Navbar,
+  Technologies,
+  Projects,
+  Experience,
+  Contact,
+  Footer,
+} from "./components";
 
 const App = () => {
   return (
@@ -17,6 +25,8 @@ const App = () => {
           <Technologies />
           <Projects />
           <Experience />
+          <Contact />
+          <Footer />
         </section>
       </div>
     </>

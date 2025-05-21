@@ -34,7 +34,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 download
-                className="bg-white rounded-lg p-4 text-sm text-stone-800 mb-10"
+                className="bg-white rounded-lg p-4 text-sm text-stone-800 mb-10 transition hover:bg-stone-100"
               >
                 {" "}
                 Download Resume

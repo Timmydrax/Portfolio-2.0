@@ -1,6 +1,6 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import logo from "../assets/raviKumarLogo.webp";
-import { FaSquareXTwitter, FaX } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -24,6 +24,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
+            className="hover:text-white transition"
           >
             <FaLinkedin />
           </a>
@@ -32,6 +33,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Github"
+            className="hover:text-white transition"
           >
             <FaGithub />
           </a>
@@ -40,6 +42,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
+            className="hover:text-white transition"
           >
             <FaInstagram />
           </a>
@@ -48,6 +51,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter/X"
+            className="hover:text-white transition"
           >
             <FaSquareXTwitter />
           </a>
