@@ -1,4 +1,4 @@
-import { Hero, Navbar } from "./components";
+import { Hero, Navbar, Technologies, Projects } from "./components";
 
 const App = () => {
   return (
@@ -14,6 +14,8 @@ const App = () => {
         <section className="container mx-auto px-8">
           <Navbar />
           <Hero />
+          <Technologies />
+          <Projects />
         </section>
       </div>
     </>
