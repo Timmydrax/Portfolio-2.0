@@ -1,22 +1,46 @@
 import { CONTACT } from "../constants";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+// eslint-disable-next-line no-unused-vars
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
     <>
       <section className="border-t border-stone-900 pb-10">
-        <h2 className="my-10 text-center text-4xl">Get in Touch</h2>
+        <motion.h2
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 0.5 }}
+          className="my-10 text-center text-4xl"
+        >
+          Get in Touch
+        </motion.h2>
         <div className="text-center tracking-tighter flex flex-col gap-4">
-          <p>{CONTACT.address}</p>
-          <p>{CONTACT.phoneNo}</p>
-          <a
+          <motion.p
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+          >
+            {CONTACT.address}
+          </motion.p>
+          <motion.p
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+          >
+            {CONTACT.phoneNo}
+          </motion.p>
+          <motion.a
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
             href="mailto:timmydrax@gmail.com"
             target="_blank"
             className="inline-block mx-auto my-1 text-white w-fit no-underline border-b transition"
           >
             {CONTACT.email}
-          </a>
+          </motion.a>
 
           <div className="m-8 flex items-center justify-center gap-4 text-2xl">
             <a

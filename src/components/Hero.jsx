@@ -1,5 +1,6 @@
 import profilePic from "../assets/raviKumarProfile.webp";
 import { HERO_CONTENT } from "../constants";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -38,7 +39,7 @@ const Hero = () => {
                 className="border border-stone-900 rounded-3xl"
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1, delay: 1.5 }}
+                transition={{ duration: 1, delay: 1 }}
                 width={600}
                 height={600}
               />

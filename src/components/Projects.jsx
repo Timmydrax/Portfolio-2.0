@@ -1,4 +1,5 @@
 import { PROJECTS } from "../constants";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -22,7 +23,7 @@ const Projects = () => {
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
-                duration={{ duration: 1 }}
+                transition={{ duration: 1 }}
                 className="w-full lg:w-2/4 flex flex-col items-center"
               >
                 <img
@@ -37,7 +38,7 @@ const Projects = () => {
               <motion.div
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: 100 }}
-                duration={{ duration: 1 }}
+                transition={{ duration: 1 }}
                 className="w-full max-w-xl lg:w-2/4 text-center mx-auto flex flex-col items-center"
               >
                 <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
