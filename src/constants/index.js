@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.webp";
+import project1 from "../assets/projects/project-one.png";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
@@ -33,11 +33,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Sabitalk Web app.",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Sabitalk is a language-learning web app that helps users explore Nigerian languages like Yoruba, Igbo, and Hausa—making it easy to go from everyday phrases to cultural expressions. The frontend is built with React, React Router, and CSS Modules, featuring user authentication (including Google login), personalized profiles, and a fully responsive design for all devices.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "React-router"],
+    link: "https://sabitalk.vercel.app",
   },
   {
     title: "Task Management App",

@@ -54,7 +54,7 @@ const Projects = () => {
                   ))}
                 </div>
                 <a
-                  href="/resume.pdf"
+                  href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   download
