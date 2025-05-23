@@ -60,7 +60,7 @@ const Hero = () => {
                 {" "}
                 Timmy Alade
               </motion.h1>
-              <motion.span className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent text-center">
+              <motion.span className="bg-gradient-to-r from-stone-300 to-stone-400 bg-clip-text text-3xl tracking-tight text-transparent text-center">
                 Frontend Engineer
               </motion.span>
               <motion.p
