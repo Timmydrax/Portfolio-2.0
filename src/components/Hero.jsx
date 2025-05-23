@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/hero-image-two.png";
 import { HERO_CONTENT } from "../constants";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";

@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import logo from "../assets/raviKumarLogo.webp";
+// import logo from "../assets/raviKumarLogo.webp";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
@@ -8,13 +8,10 @@ const Navbar = () => {
       <nav className="flex flex-row items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
           <a href="/" aria-label="Home-page">
-            <img
-              src={logo}
-              alt="The brand logo for the portfolio"
-              className="mx-2"
-              width={50}
-              height={32}
-            />
+            <div className="text-3xl font-medium" aria-label="logo">
+              Timmy
+              <span className="font-black text-4xl text-blue-400">.</span>
+            </div>
           </a>
         </div>
 
