@@ -39,7 +39,7 @@ Ensure you have Node.js and npm (Node Package Manager) installed.
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/Timmydrax/Portfolio-2.0.git](https://github.com/Timmydrax/Portfolio-2.0.git)
+    git clone https://github.com/Timmydrax/Portfolio-2.0.git
     cd Portfolio-2.0
     ```
 
