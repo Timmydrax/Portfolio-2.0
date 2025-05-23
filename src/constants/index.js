@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/project-one.png";
 import project2 from "../assets/projects/project-two.png";
 import project3 from "../assets/projects/project-three.png";
-import project4 from "../assets/projects/project-4.webp";
+import project4 from "../assets/projects/project-four.png";
+import project5 from "../assets/projects/project-five.png";
 
 export const HERO_CONTENT = `I’m a frontend engineer who started this journey a little over a year ago and I’ve been hooked ever since. I love bringing ideas to life with React, TypeScript, Tailwind, and Framer Motion, crafting websites that feel smooth, look sharp, and actually make sense to use. Whether I’m debugging late at night or fine-tuning animations, I’m always chasing that ‘wow, this feels nice’ moment.`;
 
@@ -57,12 +58,20 @@ export const PROJECTS = [
     link: "https://second-semester-examination.netlify.app/",
   },
   {
-    title: "Blogging Platform",
+    title: "Scissors",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    link: "https://sabitalk.vercel.app",
+      "A sleek URL shortening solution designed to optimize user experience and strengthen brand identity. This tool allows users to personalize links using custom slugs, branded URLs, and domain customization. Built with HTML and CSS, it features a clean, responsive interface focused on usability and engagement.",
+    technologies: ["HTML", "CSS"],
+    link: "https://timmydrax.github.io/CSS-assignments/Assignment-6/",
+  },
+  {
+    title: "Cryptified",
+    image: project5,
+    description:
+      "A simple and interactive password generator built with HTML, CSS, and JavaScript. This app allows users to generate random passwords with customizable length and options to include symbols and numbers. It also features a copy-on-click function for easy password copying.",
+    technologies: ["HTML", "Tailwind", "JavaScript"],
+    link: "https://cryptified.netlify.app/",
   },
 ];
 
