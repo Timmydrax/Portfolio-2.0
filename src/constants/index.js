@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-one.png";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
+import project2 from "../assets/projects/project-two.png";
+import project3 from "../assets/projects/project-three.png";
 import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `I’m a frontend engineer who started this journey a little over a year ago and I’ve been hooked ever since. I love bringing ideas to life with React, TypeScript, Tailwind, and Framer Motion, crafting websites that feel smooth, look sharp, and actually make sense to use. Whether I’m debugging late at night or fine-tuning animations, I’m always chasing that ‘wow, this feels nice’ moment.`;
@@ -41,18 +41,20 @@ export const PROJECTS = [
     link: "https://sabitalk.vercel.app",
   },
   {
-    title: "Task Management App",
+    title: "BasketBall Scoreboard App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "This project is a web-based basketball scoreboard with enhanced functionalities beyond basic scorekeeping. It includes features like starting a new game, highlighting the leading team, a period counter, a foul counter, and a timer.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://timmydrax.github.io/basketball-scoreboard/",
   },
   {
-    title: "Portfolio Website",
+    title: "Todo App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "This project is a React-based web application that interacts with the Todo API to fetch and manage todos. The application is designed with user-friendly features such as pagination, search, filtering, nested routes, and error handling, all while adhering to best practices for UI design and accessibility.",
+    technologies: ["HTML", "CSS", "React", "TypeScript"],
+    link: "https://second-semester-examination.netlify.app/",
   },
   {
     title: "Blogging Platform",
@@ -60,6 +62,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    link: "https://sabitalk.vercel.app",
   },
 ];
 
