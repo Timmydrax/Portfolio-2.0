@@ -13,22 +13,15 @@ export const EXPERIENCES = [
     year: "Dec 2024 - Present",
     role: "Frontend Team Lead",
     company: "Curamap",
-    description: ` I serve as the Frontend Team Lead, guiding the development of user-focused interfaces that bring our product vision to life. I collaborate closely with designers, backend developers, and product managers to turn ideas into smooth, responsive web experiences using technologies like React, TypeScript, and Tailwind CSS. Beyond coding, I support the team through code reviews, task planning, and ensuring best practices in UI consistency, performance, and accessibility.`,
+    description: ` Led the frontend team in creating user-focused interfaces that directly contributed to the product’s success, while collaborating cross-functionally with product, backend, and design teams to translate ideas into responsive web pages.`,
     technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    year: "Mar 2023 - Present",
+    year: "Mar 2024 - Present",
     role: "Web Designer & UI Designer",
     company: "Maseev Inisible Digitals",
-    description: `I craft clean, user-friendly designs that balanced visual appeal with usability. My role focuses on creating responsive, accessible interfaces that support both user needs and business goals.`,
-    technologies: ["Figma", "Wordpress", "Hostinger", "Google Ads"],
-  },
-  {
-    year: "Mar 2024 - Apr 2024",
-    role: "Wordpress Developer",
-    company: "Kenrow Digital Marketing Agency",
-    description: `As a contract WordPress Developer at Kenrow Digitals, I built and customized responsive websites, delivering user-friendly designs and ensuring performance, accessibility, and SEO best practices.`,
-    technologies: ["Wordpress", "Hostinger", "GoogleAds"],
+    description: `Designed and developed clean, user-centric interfaces that balanced visual appeal with intuitive usability, while ensuring responsiveness, accessibility, and alignment with both user needs and business goals.`,
+    technologies: ["Figma", "Wordpress", "Hostinger"],
   },
 ];
 
