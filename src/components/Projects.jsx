@@ -42,11 +42,13 @@ const Projects = () => {
                 className="w-full max-w-xl lg:w-2/4 text-center mx-auto flex flex-col items-center"
               >
                 <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
-                <p className="mb-4 text-stone-400">{project.description}</p>
+                <p className="mb-4 text-stone-400 dark:text-stone-400">
+                  {project.description}
+                </p>
                 <div className="mb-4 flex flex-wrap px-4">
                   {project.technologies.map((tech, index) => (
                     <span
-                      className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300 my-1"
+                      className="mr-2 rounded bg-stone-900 dark:bg-stone-900 p-2 text-sm font-medium text-stone-300 dark:text-stone-300 my-1"
                       key={index}
                     >
                       {tech}
@@ -58,7 +60,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   download
-                  className="bg-white rounded-lg p-4 text-sm text-stone-800 mb-10 transition hover:bg-stone-100"
+                  className="bg-white dark:bg-white rounded-lg p-4 text-sm text-stone-800 dark:text-stone-800 mb-10 transition hover:bg-stone-100 dark:hover:bg-stone-100"
                 >
                   {" "}
                   Explore Project

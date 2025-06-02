@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <>
-      <section className="border-t border-stone-900 pb-10">
+      <section className="border-t border-stone-900 dark:border-stone-900 pb-10">
         <motion.h2
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
@@ -48,7 +48,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="hover:text-white transition"
+              className="hover:text-white dark:hover:text-white transition"
             >
               <FaLinkedin />
             </a>
@@ -57,7 +57,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Github"
-              className="hover:text-white transition"
+              className="hover:text-white dark:hover:text-white transition"
             >
               <FaGithub />
             </a>
@@ -66,7 +66,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="hover:text-white transition"
+              className="hover:text-white dark:hover:text-white transition"
             >
               <FaInstagram />
             </a>
@@ -75,7 +75,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter/X"
-              className="hover:text-white transition"
+              className="hover:text-white dark:hover:text-white transition"
             >
               <FaSquareXTwitter />
             </a>

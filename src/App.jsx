@@ -11,7 +11,7 @@ import {
 const App = () => {
   return (
     <>
-      <div className="overflow-x-hidden text-stone-300 anatialised">
+      <div className="overflow-x-hidden text-stone-300 dark:text-stone-300 anatialised">
         <section className="container mx-auto px-4 lg:px-8">
           <Navbar />
           <Hero />

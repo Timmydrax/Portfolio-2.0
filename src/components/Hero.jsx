@@ -36,7 +36,7 @@ const Hero = () => {
               <motion.img
                 src={profilePic}
                 alt="A 3D picture of Timmy Alade"
-                className="border border-stone-900 rounded-3xl"
+                className="border border-stone-900 dark:border-stone-900 rounded-3xl"
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1, delay: 1 }}
@@ -60,7 +60,7 @@ const Hero = () => {
                 {" "}
                 Timmy Alade
               </motion.h1>
-              <motion.span className="bg-gradient-to-r from-stone-300 to-stone-400 bg-clip-text text-3xl tracking-tight text-transparent text-center">
+              <motion.span className="bg-gradient-to-r from-stone-300 dark:from-stone-300 to-stone-400 dark:to-stone-400 bg-clip-text text-3xl tracking-tight text-transparent text-center">
                 Frontend Engineer
               </motion.span>
               <motion.p
@@ -76,7 +76,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 download
-                className="bg-white rounded-lg p-4 text-sm text-stone-800 mb-10 transition hover:bg-stone-100"
+                className="bg-white dark:bg-white rounded-lg p-4 text-sm text-stone-800 dark:text-stone-800 mb-10 transition hover:bg-stone-100 dark:hover:bg-stone-100"
               >
                 {" "}
                 View Resume

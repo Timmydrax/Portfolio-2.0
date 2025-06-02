@@ -10,7 +10,9 @@ const Navbar = () => {
           <a href="/" aria-label="Home-page">
             <div className="text-3xl font-medium" aria-label="logo">
               Timmy
-              <span className="font-black text-4xl text-blue-400">.</span>
+              <span className="font-black text-4xl text-blue-400 dark:text-blue-400">
+                .
+              </span>
             </div>
           </a>
         </div>
@@ -21,7 +23,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="hover:text-white transition"
+            className="hover:text-white dark:hover:text-white transition"
           >
             <FaLinkedin />
           </a>
@@ -30,7 +32,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Github"
-            className="hover:text-white transition"
+            className="hover:text-white dark:hover:text-white transition"
           >
             <FaGithub />
           </a>
@@ -39,7 +41,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="hover:text-white transition"
+            className="hover:text-white dark:hover:text-white transition"
           >
             <FaInstagram />
           </a>
@@ -48,7 +50,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter/X"
-            className="hover:text-white transition"
+            className="hover:text-white dark:hover:text-white transition"
           >
             <FaSquareXTwitter />
           </a>

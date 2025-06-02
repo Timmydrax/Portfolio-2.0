@@ -8,7 +8,7 @@ import {
 } from "react-icons/ri";
 import { SiJavascript, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars 
 import { animate, motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
