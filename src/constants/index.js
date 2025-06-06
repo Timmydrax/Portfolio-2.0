@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     role: "Frontend Team Lead",
     company: "Curamap",
     description: ` Led the frontend team in creating user-focused interfaces that directly contributed to the product’s success, while collaborating cross-functionally with product, backend, and design teams to translate ideas into responsive web pages.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    technologies: ["HTML", "CSS", "JavaScript", "React"], 
   },
   {
     year: "Mar 2024 - Present",
