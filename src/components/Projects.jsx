@@ -10,6 +10,7 @@ const Projects = () => {
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
           className="my-20 text-center text-4xl"
         >
           Projects
@@ -24,6 +25,7 @@ const Projects = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
+                viewport={{ once: true }}
                 className="w-full lg:w-2/4 flex flex-col items-center"
               >
                 <img
@@ -39,6 +41,7 @@ const Projects = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: 100 }}
                 transition={{ duration: 1 }}
+                viewport={{ once: true }}
                 className="w-full max-w-xl lg:w-2/4 text-center mx-auto flex flex-col items-center"
               >
                 <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>

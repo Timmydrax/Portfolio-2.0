@@ -4,9 +4,7 @@ import project3 from "../assets/projects/project-three.png";
 import project4 from "../assets/projects/project-four.png";
 import project5 from "../assets/projects/project-five.png";
 
-export const HERO_CONTENT = `I’m a frontend engineer who started this journey a little over a year ago and I’ve been hooked ever since. I love bringing ideas to life with React, TypeScript, Tailwind, and Framer Motion, crafting websites that feel smooth, look sharp, and actually make sense to use. Whether I’m debugging late at night or fine-tuning animations, I’m always chasing that ‘wow, this feels nice’ moment.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I’m a frontend engineer who loves turning ideas into smooth, engaging web experiences. I work with React, Next.js, TypeScript, Tailwind CSS, and Framer Motion to build interfaces that not only look great but also feel great to use. Whether I’m debugging late at night or fine-tuning animations, I’m always chasing that little ‘wow, this feels nice’ moment.`;
 
 export const EXPERIENCES = [
   {
