@@ -29,7 +29,7 @@ export const EXPERIENCES = [
     technologies: ["Figma", "Wordpress", "Hostinger"],
   },
 ];
-
+ 
 export const PROJECTS = [
   {
     title: "PlanetFall",
