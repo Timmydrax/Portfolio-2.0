@@ -10,28 +10,35 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Dec 2024 - Present",
-    role: "Frontend Team Lead",
-    company: "Curamap",
-    description: ` Led the frontend team in creating user-focused interfaces that directly contributed to the product’s success, while collaborating cross-functionally with product, backend, and design teams to translate ideas into responsive web pages.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React"], 
+    year: "Feb 2025 - Present",
+    role: "Frontend Engineer",
+    company: "JCITechPlatform",
+    description: ` Contributed to frontend development by delivering responsive, user-centric interfaces that aligned with the product vision, enhanced usability, and drove an estimated 15% improvement in user engagement.`,
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Next.js",
+    ],
   },
   {
-    year: "Mar 2024 - Present",
+    year: "Mar 2024 - Sep 2025",
     role: "Web Designer & UI Designer",
     company: "Maseev Inisible Digitals",
-    description: `Designed and developed clean, user-centric interfaces that balanced visual appeal with intuitive usability, while ensuring responsiveness, accessibility, and alignment with both user needs and business goals.`,
+    description: `Designed and implemented intuitive, visually appealing UI/UX solutions that enhanced user satisfaction by 10% and significantly improved site navigation and accessibility.`,
     technologies: ["Figma", "Wordpress", "Hostinger"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Sabitalk Web app.",
+    title: "PlanetFall",
     image: project1,
     description:
-      "Sabitalk is a language-learning web app that helps users explore Nigerian languages like Yoruba, Igbo, and Hausa—making it easy to go from everyday phrases to cultural expressions. The frontend is built with React, React Router, and CSS Modules, featuring user authentication (including Google login), personalized profiles, and a fully responsive design for all devices.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "React-router"],
+      "Planetfall is a space-themed word guessing game inspired by Hangman. Instead of losing lives, you lose planets. There are 9 planets in total, and with each wrong guess, one planet gets eliminated. Your mission is to guess the hidden word before all planets are gone — leaving only the last planet standing.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
     link: "https://sabitalk.vercel.app",
   },
   {
