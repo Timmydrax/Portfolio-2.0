@@ -22,7 +22,7 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "Mar 2024 - Sep 2025",
+    year: "Mar 2024 - Present",
     role: "Web Designer & UI Designer",
     company: "Maseev Inisible Digitals",
     description: `Designed and implemented intuitive, visually appealing UI/UX solutions that enhanced user satisfaction by 10% and significantly improved site navigation and accessibility.`,
