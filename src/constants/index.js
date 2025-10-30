@@ -36,7 +36,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Planetfall is a space-themed word guessing game inspired by Hangman. Instead of losing lives, you lose planets. There are 9 planets in total, and with each wrong guess, one planet gets eliminated. Your mission is to guess the hidden word before all planets are gone — leaving only the last planet standing.",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    technologies: ["HTML", "CSS", "TypeScript", "React"],
     link: "https://planetfalls.netlify.app/",
   },
   {
