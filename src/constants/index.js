@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-two.png";
 import project3 from "../assets/projects/project-three.png";
 import project4 from "../assets/projects/project-four.png";
 import project5 from "../assets/projects/project-five.png";
+import project6 from "../assets/projects/project-six.png";
 
 export const HERO_CONTENT = `I’m a frontend engineer who loves turning ideas into smooth, engaging web experiences. I work with HTML5, CSS3, JavaScript(ES6+), React, TypeScript, Tailwind CSS, and Next.js to build interfaces that not only look great but also feel great to use. Whether I’m debugging late at night or fine-tuning animations, I’m always chasing that little ‘wow, this feels nice’ moment.`;
 
@@ -29,8 +30,22 @@ export const EXPERIENCES = [
     technologies: ["Figma", "Wordpress", "Hostinger"],
   },
 ];
- 
+
 export const PROJECTS = [
+  {
+    title: "Glemac",
+    image: project6,
+    description:
+      "Glemac Engineering & Manpower Services Ltd is a dynamic indigenous engineering company incorporated in 2018. We operate across telecommunications, electronics, and power sectors, delivering comprehensive engineering solutions throughout Nigeria.",
+    technologies: [
+      "HTML",
+      "Tailwind CSS",
+      "TypeScript",
+      "React",
+      "Framer Motion",
+    ],
+    link: "https://glemac.vercel.app/",
+  },
   {
     title: "PlanetFall",
     image: project1,
