@@ -45,6 +45,7 @@ export const PROJECTS = [
       "Framer Motion",
     ],
     link: "https://glemac.vercel.app/",
+    githubLink: "https://github.com/Timmydrax/glemac",
   },
   {
     title: "PlanetFall",
@@ -53,6 +54,7 @@ export const PROJECTS = [
       "Planetfall is a space-themed word guessing game inspired by Hangman. Instead of losing lives, you lose planets. There are 9 planets in total, and with each wrong guess, one planet gets eliminated. Your mission is to guess the hidden word before all planets are gone — leaving only the last planet standing.",
     technologies: ["HTML", "CSS", "TypeScript", "React"],
     link: "https://planetfalls.netlify.app/",
+    githubLink: "https://github.com/Timmydrax/planetfall",
   },
   {
     title: "BasketBall Scoreboard App",
@@ -61,6 +63,7 @@ export const PROJECTS = [
       "This project is a web-based basketball scoreboard with enhanced functionalities beyond basic scorekeeping. It includes features like starting a new game, highlighting the leading team, a period counter, a foul counter, and a timer.",
     technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://timmydrax.github.io/basketball-scoreboard/",
+    githubLink: "https://github.com/Timmydrax/basketball-scoreboard",
   },
   {
     title: "Todo App",
@@ -69,6 +72,7 @@ export const PROJECTS = [
       "This project is a React-based web application that interacts with the Todo API to fetch and manage todos. The application is designed with user-friendly features such as pagination, search, filtering, nested routes, and error handling, all while adhering to best practices for UI design and accessibility.",
     technologies: ["HTML", "CSS", "React", "TypeScript"],
     link: "https://second-semester-examination.netlify.app/",
+    githubLink: "https://github.com/Timmydrax/React-Todo-App",
   },
   {
     title: "Scissors",
@@ -77,6 +81,8 @@ export const PROJECTS = [
       "A sleek URL shortening solution designed to optimize user experience and strengthen brand identity. This tool allows users to personalize links using custom slugs, branded URLs, and domain customization. Built with HTML and CSS, it features a clean, responsive interface focused on usability and engagement.",
     technologies: ["HTML", "CSS"],
     link: "https://timmydrax.github.io/CSS-assignments/Assignment-6/",
+    githubLink:
+      "https://github.com/Timmydrax/CSS-assignments/tree/main/Assignment-6",
   },
   {
     title: "Cryptified",
@@ -85,6 +91,7 @@ export const PROJECTS = [
       "A simple and interactive password generator built with HTML, CSS, and JavaScript. This app allows users to generate random passwords with customizable length and options to include symbols and numbers. It also features a copy-on-click function for easy password copying.",
     technologies: ["HTML", "Tailwind", "JavaScript"],
     link: "https://cryptified.netlify.app/",
+    githubLink: "https://github.com/Timmydrax/cryptify",
   },
 ];
 
