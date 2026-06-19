@@ -74,7 +74,7 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     download
-                    className="bg-transparent dark:bg-transparent border border-white dark:border-white rounded-lg p-4 text-sm text-stone-800 dark:text-stone-800 lg:mb-10 transition hover:bg-stone-100 dark:hover:bg-stone-100"
+                    className="bg-transparent dark:bg-transparent border border-white dark:border-white rounded-lg p-4 text-sm text-white dark:text-white lg:mb-10 transition hover:bg-stone-100 dark:hover:bg-stone-100 hover:text-stone-800 dark:hover:text-stone-800"
                   >
                     {" "}
                     View on GitHub
